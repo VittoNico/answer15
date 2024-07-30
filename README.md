@@ -1,5 +1,5 @@
 ## answer15
-
+```python
 import pandas as pd
 import numpy as np
 
@@ -11,3 +11,4 @@ data_sorted = data.sort_values(by='log2FC', ascending=False)
 data_sorted.to_csv('gene_expression_log2fc_sorted.csv', index=False)
 
 print("Log2 fold-changes calculated and data exported to 'gene_expression_log2fc_sorted.csv'.")
+```
